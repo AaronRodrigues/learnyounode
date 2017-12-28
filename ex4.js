@@ -1,4 +1,4 @@
-vae fs = require('fs');    
+var fs = require('fs');    
 
 function count(){    
   fs.readFile(process.argv[2], function finishedReading(error, buf){
