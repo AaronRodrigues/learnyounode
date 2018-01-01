@@ -12,5 +12,4 @@ var data = [];
     })
     callback(null, data)
   });
-
 };
